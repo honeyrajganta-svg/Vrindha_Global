@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f8ff;
+}
+
+.results-container{
+    max-width:1200px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.results-card{
+    background:#fff;
+    border-radius:24px;
+    padding:40px;
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+}
+
+.results-header{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.ai-badge{
+    display:inline-block;
+    background:#eaf2ff;
+    color:#1f5eff;
+    padding:8px 18px;
+    border-radius:50px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.results-header h1{
+    font-size:36px;
+    color:#0f1d4a;
+    margin-bottom:12px;
+}
+
+.results-header p{
+    color:#667085;
+    max-width:700px;
+    margin:auto;
+    line-height:1.7;
+}
+
+.profile-card{
+    background:#f8fbff;
+    border:1px solid #dbe7ff;
+    border-radius:18px;
+    padding:30px;
+    margin:40px 0;
+}
+
+.profile-card h2{
+    color:#0f1d4a;
+    margin-bottom:25px;
+}
+
+.profile-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.profile-grid div{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:14px;
+    padding:18px;
+}
+
+.profile-grid strong{
+    display:block;
+    color:#667085;
+    font-size:14px;
+    margin-bottom:8px;
+}
+
+.profile-grid span{
+    color:#0f1d4a;
+    font-size:18px;
+    font-weight:600;
+}
+
+.section-title{
+    margin:45px 0 25px;
+    color:#0f1d4a;
+}
+
+#universityContainer{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+    gap:25px;
+}
+
+.university-card{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 8px 25px rgba(0,0,0,.05);
+    transition:.3s;
+}
+
+.university-card:hover{
+    transform:translateY(-5px);
+}
+
+.match-score{
+    display:inline-block;
+    background:#dcfce7;
+    color:#15803d;
+    padding:6px 14px;
+    border-radius:30px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.university-card h3{
+    color:#0f1d4a;
+    margin-bottom:18px;
+}
+
+.university-card p{
+    margin:8px 0;
+    color:#475467;
+}
+
+.apply-btn{
+    width:100%;
+    margin-top:20px;
+    background:#1f5eff;
+    color:#fff;
+    border:none;
+    padding:14px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+}
+
+.apply-btn:hover{
+    background:#174bd8;
+}
+
+@media(max-width:768px){
+
+.results-card{
+padding:25px;
+}
+
+.results-header h1{
+font-size:28px;
+}
+
+.profile-grid{
+grid-template-columns:1fr;
+}
+
+}
